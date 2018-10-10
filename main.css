@@ -1,6 +1,8 @@
 body,html{
 	height:100%;
 	margin: 0px;
+	font-family:Linotype;
+	font-size: 18px;
 
 }/*
 body{
@@ -12,8 +14,7 @@ body{
 	grid-template-columns: 3fr 7fr;
 	grid-template-rows: 2fr 8fr;
 	 width: 100%;
-	 border: 2px solid red;
-  	
+	 
 }
 .banner{
 	grid-row: 1/2;
@@ -49,6 +50,7 @@ body{
 	color: white;
 	width: 30%;
 	height: 20vh;
+
 
 }
 .box p:first-child{
@@ -173,4 +175,9 @@ body{
 	
 	text-align: center;
 
+}
+@media(max-width: 1830px) {
+	.box{
+		height: 70%;
+	}
 }
